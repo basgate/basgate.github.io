@@ -1,7 +1,7 @@
 var indexSectionsWithContent =
 {
-  0: "$01234679:abcdefghijklmnopqrstuvwyz ¤«±²¹àâäåçêëðñòõöúûüÿابتخدشعلنو",
-  1: "cdfimostابتخدشعلنو"
+  0: "123abcdefghijlmoprstuwyابحدسشعفلمنو",
+  1: "123sابحدسشعفلمنو"
 };
 
 var indexSectionNames =

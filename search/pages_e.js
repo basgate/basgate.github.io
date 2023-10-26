@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['عن_20خدمة_20بس_0',['عن خدمة بس',['../_xD9_x86_xD8_xA8_xD8_xB0_xD8_xA9-_xD8_xAA_xD8_xB9_xD8_xB1_xD9_x8A_xD9_x81_xD9_x8A_xD8_xA9-_xD8_xe44abc22d95b30504175b52a1d318f35.html',1,'نبذة تعريفية عن خدمة بس.'],['../_xD9_x86_xD8_xA8_xD8_xB0_xD8_xA9-_xD8_xAA_xD8_xB9_xD8_xB1_xD9_x8A_xD9_x81_xD9_x8A_xD8_xA9-_xD8_x24424c61c5f3421a915ce29e3482198a.html',1,'نبذة تعريفية عن خدمة بس.']]],
-  ['عن_20خدمة_20بس_20copy_1',['نبذة تعريفية عن خدمة بس. - Copy',['../_xD9_x86_xD8_xA8_xD8_xB0_xD8_xA9-_xD8_xAA_xD8_xB9_xD8_xB1_xD9_x8A_xD9_x81_xD9_x8A_xD8_xA9-_xD8_x21f166bfd5e48e65fadb9eb2b776d0c6.html',1,'']]]
+  ['نبذة_20عن_20بس_0',['1.1 نبذة عن بس',['../db/da7/md__source_21-1_01_x_d9_x86_x_d8_x_a8_x_d8_x_b0_x_d8_x_a9_01_x_d8_x_a_a_x_d8_x_b9_x_d8_x_b1_x_d92de828e6161b90c32f73bba37dc51357.html',1,'']]]
 ];

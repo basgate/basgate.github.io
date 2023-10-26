@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['draft_20sdk111111_0',['Merchant first draft SDK111111',['../md__source_2_s_d_k_2_merchant_01first_01draft_01_s_d_k111111.html',1,'']]]
+  ['2_20منصة_20بس_20للاعمال_0',['1.2 منصة بس للاعمال',['../d2/df5/md__source_21-2-_01_x_d8_x_a8_x_d8_x_b3_01_x_d9_x84_x_d9_x84_x_d8_x_a7_x_d8_x_b9_x_d9_x85_x_d8_x_a7_x_d9_x84.html',1,'']]]
 ];

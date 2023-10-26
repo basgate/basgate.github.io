@@ -1,4 +1,8 @@
 var searchData=
 [
-  ['_24§é_20yd_20qd_24u_20ò_20_0',['HÄÐÝ5ÖÄÏ\^«µ $&amp;SSõA\DÖ+,ZZ0|dÑJRó -AM  ¤ug° E{iÀZ&amp;u.âI¾&lt;ÈIÀW#ÖàiC$F)¤P©bDÚá ° óµOóAòÁÈäÌ3 d#&gt;±Clµ U&lt;]jãFàù&amp;ð ²PÓHOaÅP²&gt;bVÄSÅmÐdtGó*ÀjÅmÕ´%Õ6°Z£¿Yq|fa-Ç®hFÆ&amp;I?ÛÌÄö5J¤ïcÂ&quot;V -Ñ:Î¦1.r³t,GA$l6àh1Ç1Ú0cÅÕßÄp¤á5ë!úÊxG[ÿG* 9ÅÐÌãYÔ[&lt;ÄD?ÇZ±CúL®¤ÃãM&gt;-º:¸¤átºk:2!ÅQG-i1.ÜÀDÐ8Ækãõ,2.dkIç}¹ãëßØ$-Ñº=õëÞdK»sÀáp8#A$_©&lt;´¡K¤#âÊ@A t&lt;¹öRzûÙÆ    bT,$§éyd;%Qd$U}ò&lt;',['../D:/ProgrammingFolder/BasGate/Documentation/Source/terms.markdown#häðý5öäïµ-ssõadözz0dñjró--am--ug-eià-zuâi¾èiàwöàicfpbdúá-óµoóaòáèäì3-dclµ-ujãfàùð-²póhoaåp²bväsåmðdtgóàjåmõõ6zyqfa-çh-fæiûìäö5jïcâv--ñî1r³tgal6àh1ç1ú0cåõßäpá5ëúêxgÿg-9åðìãyôädçzcúlããm-ºátºk2åqg-i1üàdð8ækãõ2dkiç¹ãëßø-ñºõëþdksàáp8a_kâêa-t¹örzûùæ----btéydqduò',1,'']]]
+  ['1_20دليل_20الربط_20مع_20المنصة_20sdk_0',['3.1 دليل الربط مع المنصة -SDK',['../d5/d66/md__source_23-_01_x_d8_x_a_f_x_d9_x84_x_d9_x8_a_x_d9_x84_01_x_d8_x_a7_x_d9_x84_x_d8_x_b1_x_d8_x_b4f72440e2f719a7f7aac069ab44af70.html',1,'']]],
+  ['1_201_20نبذة_20عن_20بس_1',['1.1 نبذة عن بس',['../db/da7/md__source_21-1_01_x_d9_x86_x_d8_x_a8_x_d8_x_b0_x_d8_x_a9_01_x_d8_x_a_a_x_d8_x_b9_x_d8_x_b1_x_d92de828e6161b90c32f73bba37dc51357.html',1,'']]],
+  ['1_202_20منصة_20بس_20للاعمال_2',['1.2 منصة بس للاعمال',['../d2/df5/md__source_21-2-_01_x_d8_x_a8_x_d8_x_b3_01_x_d9_x84_x_d9_x84_x_d8_x_a7_x_d8_x_b9_x_d9_x85_x_d8_x_a7_x_d9_x84.html',1,'']]],
+  ['1_203_20منصة_20بس_20للأفراد_3',['1.3 منصة بس للأفراد',['../d8/db0/md__source_21-3-_01_x_d8_x_a8_x_d8_x_b3_01_x_d9_x84_x_d9_x84_x_d8_x_a7_x_d9_x81_x_d8_x_b1_x_d8_x_a7_x_d8_x_a_f.html',1,'']]],
+  ['1_3a_20register_4',['Step 1: Register',['../d5/d66/md__source_23-_01_x_d8_x_a_f_x_d9_x84_x_d9_x8_a_x_d9_x84_01_x_d8_x_a7_x_d9_x84_x_d8_x_b1_x_d8_x_b4f72440e2f719a7f7aac069ab44af70.html#step-1-register',1,'']]]
 ];

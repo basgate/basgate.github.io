@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['qamhan_0',['7/2/2023     0.06      6^st^ draft version          Eissa &amp; Qamhan',['../md__source_2_s_d_k_2_merchant_01first_01draft_01_s_d_k111111.html#autotoc_md722023-----006------6st-draft-version----------eissa--qamhan',1,'']]]
+  ['دليل_20الربط_20مع_20المنصة_20sdk_0',['3.1 دليل الربط مع المنصة -SDK',['../d5/d66/md__source_23-_01_x_d8_x_a_f_x_d9_x84_x_d9_x8_a_x_d9_x84_01_x_d8_x_a7_x_d9_x84_x_d8_x_b1_x_d8_x_b4f72440e2f719a7f7aac069ab44af70.html',1,'']]],
+  ['دليل_20اليات_20شروط_20واحكام_20المنصة_1',['دليل اليات-شروط- واحكام المنصة',['../d3/df4/_xD8_xAF_xD9_x84_xD9_x8A_xD9_x84-_xD8_xA7_xD9_x84_xD9_x8A_xD8_xA7_xD8_xAA-_xD8_xB4_xD8_xB1_xD9_x49bc19f149b409744787fc5d35ba31fb.html',1,'']]],
+  ['دليل_20سياسات_20واجراءات_20حساب_20التاجر_2',['دليل سياسات واجراءات حساب التاجر',['../d7/d12/_xD8_xAF_xD9_x84_xD9_x8A_xD9_x84-_xD8_xB3_xD9_x8A_xD8_xA7_xD8_xB3_xD8_xA7_xD8_xAA-_xD9_x88_xD8_x3ff8cbdeecf829960e779f61faf56486.html',1,'']]]
 ];

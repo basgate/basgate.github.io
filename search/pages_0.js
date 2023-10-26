@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['contents_0',['Table of Contents',['../md__source_2_s_d_k_2_merchant_01first_01draft_01_s_d_k.html',1,'']]],
-  ['copy_1',['نبذة تعريفية عن خدمة بس. - Copy',['../_xD9_x86_xD8_xA8_xD8_xB0_xD8_xA9-_xD8_xAA_xD8_xB9_xD8_xB1_xD9_x8A_xD9_x81_xD9_x8A_xD8_xA9-_xD8_x21f166bfd5e48e65fadb9eb2b776d0c6.html',1,'']]]
+  ['1_20دليل_20الربط_20مع_20المنصة_20sdk_0',['3.1 دليل الربط مع المنصة -SDK',['../d5/d66/md__source_23-_01_x_d8_x_a_f_x_d9_x84_x_d9_x8_a_x_d9_x84_01_x_d8_x_a7_x_d9_x84_x_d8_x_b1_x_d8_x_b4f72440e2f719a7f7aac069ab44af70.html',1,'']]],
+  ['1_201_20نبذة_20عن_20بس_1',['1.1 نبذة عن بس',['../db/da7/md__source_21-1_01_x_d9_x86_x_d8_x_a8_x_d8_x_b0_x_d8_x_a9_01_x_d8_x_a_a_x_d8_x_b9_x_d8_x_b1_x_d92de828e6161b90c32f73bba37dc51357.html',1,'']]],
+  ['1_202_20منصة_20بس_20للاعمال_2',['1.2 منصة بس للاعمال',['../d2/df5/md__source_21-2-_01_x_d8_x_a8_x_d8_x_b3_01_x_d9_x84_x_d9_x84_x_d8_x_a7_x_d8_x_b9_x_d9_x85_x_d8_x_a7_x_d9_x84.html',1,'']]],
+  ['1_203_20منصة_20بس_20للأفراد_3',['1.3 منصة بس للأفراد',['../d8/db0/md__source_21-3-_01_x_d8_x_a8_x_d8_x_b3_01_x_d9_x84_x_d9_x84_x_d8_x_a7_x_d9_x81_x_d8_x_b1_x_d8_x_a7_x_d8_x_a_f.html',1,'']]]
 ];
