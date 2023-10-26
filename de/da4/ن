@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ar-EG">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>BaseGate Docs: نبذة تعريفية عن خدمة بس.</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">BaseGate Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- انتجت بواسطة Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','بحث');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('de/da4/ن���ت������ع�خ���ب�.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div><div class="header">
+  <div class="headertitle"><div class="title">نبذة تعريفية عن خدمة بس.</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><p>[[خدمات منصة]{dir="rtl"} [بس ]{dir="rtl"}]{.underline}</p>
+<p>[الوصف]{dir="rtl"}</p>
+<p>[تطبيق يقدم خدمات استضافة (المتاجر الإلكترونية &ndash; والخدمات المالية والحوالات &ndash; الدفع الإلكتروني) في تطبيق واحد عن طريق توفر إمكانية إضافة وربط متاجر أخرى بطريقة سهلة وموحدة]{dir="rtl"} [وكذلك تسمح للمستخدمين بربط وسئل الدفع الخاصة بهم وتسديد المدفوعات عن طريقها او الدفع عن طريق خدمة الدفع المتوفرة حاليا]{dir="rtl"}</p>
+<p>[الخدمات :-]{dir="rtl"}</p>
+<ul>
+<li>[منصة استضافة المتاجر الإلكترونية:-]{dir="rtl"}</li>
+</ul>
+<p>[توفير قوالب جاهزة تتوافق مع معظم المتاجر الإلكترونية]{dir="rtl"}</p>
+<p>[إمكانية ربط المتاجر الموجودة حاليا بالمنصة]{dir="rtl"}</p>
+<ul>
+<li>[خدمة سداد فواتير الهاتف النقال، شحن رصيد الجوالات وتجديد الباقات:]{dir="rtl"}</li>
+</ul>
+<div class="fragment"><div class="line">{=html} </div>
+<div class="line">&lt;!-- --&gt;</div>
+</div><!-- fragment --><ul>
+<li>[خدمات]{dir="rtl"} [سداد الفواتير والباقات وشحن الرصيد لكافة شركات الاتصالات العاملة في اليمن سواءً كان الخط المراد سداده فوتره أو دفع مسبق.]{dir="rtl"}</li>
+</ul>
+<div class="fragment"><div class="line">{=html} </div>
+<div class="line">&lt;!-- --&gt;</div>
+</div><!-- fragment --><ul>
+<li>[خدمة سداد فواتير الخدمات الحكومية: -]{dir="rtl"}</li>
+</ul>
+<div class="fragment"><div class="line">{=html} </div>
+<div class="line">&lt;!-- --&gt;</div>
+</div><!-- fragment --><ul>
+<li>[يقدم خدمة سداد جميع الفواتير الخاصة بالخدمات العامة كـ الكهرباء والمياه والهاتف الثابت والانترنت]{dir="rtl"} ADSL[ليجعل خدمة السداد سهلة وبسيطة وفي متناول كل فرد.]{dir="rtl"}</li>
+</ul>
+<div class="fragment"><div class="line">{=html} </div>
+<div class="line">&lt;!-- --&gt;</div>
+</div><!-- fragment --><ul>
+<li><b>[خدمات بطائق الهدايا الرقمية]{dir="rtl"} [(]{dir="rtl"}GIFT CARD[):]{dir="rtl"}</b></li>
+</ul>
+<div class="fragment"><div class="line">{=html} </div>
+<div class="line">&lt;!-- --&gt;</div>
+</div><!-- fragment --><ul>
+<li>[عبارة عن بطاقة نقود ذات قيمة مخزنة مدفوعة مسبقًا، يتم إصدارها عادةً من قبل <a href="https://ar.wikipedia.org/wiki/%D8%AA%D8%AC%D8%A7%D8%B1%D8%A9_%D8%A7%D9%84%D8%AA%D8%AC%D8%B2%D8%A6%D8%A9">بائع تجزئة</a>]{dir="rtl"} [أو <a href="https://ar.wikipedia.org/wiki/%D9%85%D8%B5%D8%B1%D9%81_(%D8%A3%D9%85%D9%88%D8%A7%D9%84)">بنك</a>، لاستخدامها كبديل للنقد مقابل عمليات الشراء داخل متجر الكتروني معين او في منصات الألعاب والمنصات الترفيهية تستخدم معظمها في الألعاب المنزلة من متجر قوقل بلاي مثل]{dir="rtl"} RazerGold [او]{dir="rtl"} PUBG [ومنصات الألعاب الأخرى كالبلايستيشن و]{dir="rtl"} XBOX [وغيرها من منصات الالعاب]{dir="rtl"}</li>
+<li>[كذلك تتيح الخدمة الاشتراك في الخدمات الترفيهية الأخرى مثل (]{dir="rtl"}Netflix -&mdash;SKYPE [)]{dir="rtl"}.</li>
+</ul>
+<div class="fragment"><div class="line">{=html} </div>
+<div class="line">&lt;!-- --&gt;</div>
+</div><!-- fragment --><ul>
+<li><b>[بطاقات الدفع المسبق الخاصة بالمشتريات عبر الانترنت (]{dir="rtl"}MasterCard[)]{dir="rtl"}:</b></li>
+</ul>
+<div class="fragment"><div class="line">{=html} </div>
+<div class="line">&lt;!-- --&gt;</div>
+</div><!-- fragment --><ul>
+<li>[خدمة دفع إلكترونية تتيح لمستخدميها دفع قيمة مشترياتهم من الإنترنت &gt; أو دفع الرسوم عبر مواقع الإنترنت المحمية بنظام]{dir="rtl"}D &gt; [3]{dir="rtl"}Secure[.]{dir="rtl"}</li>
+</ul>
+<div class="fragment"><div class="line">{=html} </div>
+<div class="line">&lt;!-- --&gt;</div>
+</div><!-- fragment --><ul>
+<li><b>[سهولة اصدار تقارير لجميع العمليات التي تمت من قبل المتاجر]{dir="rtl"}</b></li>
+</ul>
+<p>[تتيح منصة بس للشركة من خلال يوزر تقارير من إصدار تقارير لجميع العمليات التي تمت ومتابعة حالتها في حال وجود أي مشكلة للعميل اثناء الدفع]{dir="rtl"}.</p>
+<p>[إمكانية اصدار كشف حساب تحليلي بجميع الحركات المنفذة.]{dir="rtl"} </p>
+</div></div><!-- contents -->
+</div><!-- PageDoc -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">انتجت بواسطة <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
+</body>
+</html>

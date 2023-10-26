@@ -1,0 +1,1899 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ar-EG">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>BaseGate Docs: Merchant first draft SDK111111</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="icon.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">BaseGate Docs<span id="projectnumber">&#160;1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- انتجت بواسطة Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','بحث');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('md__source_2_s_d_k_2_merchant_01first_01draft_01_s_d_k111111.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div><div class="header">
+  <div class="headertitle"><div class="title">Merchant first draft SDK111111</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><h2><a class="anchor" id="ianchormerchant-first-draft-sdk111111-merchant-first-draft-sdk111111ilinebr"></a>
+@ianchor{Merchant first draft SDK111111} merchant-first-draft-sdk111111</h2>
+<p>title: |</p>
+<h2><a class="anchor" id="bas"></a>
+BAS</h2>
+<h1><a class="anchor" id="table-of-contents-table-of-contents-toc-heading"></a>
+Table of Contents {#table-of-contents .TOC-Heading}</h1>
+<p><a class="el" href="md__source_2_s_d_k_2_merchant_01first_01draft_01_s_d_k.html#document-revision-history">Bas Mini-Apps [5](#document-revision-history)</a></p>
+<p><a class="el" href="md__source_2_s_d_k_2_merchant_01first_01draft_01_s_d_k.html#what-are-bas-mini-apps">What are Bas Mini Apps? [5](#what-are-bas-mini-apps)</a></p>
+<p><a class="el" href="md__source_2_s_d_k_2_merchant_01first_01draft_01_s_d_k.html#how-bas-mini-apps-works">How Bas Mini Apps works? [5](#how-bas-mini-apps-works)</a></p>
+<p><a class="el" href="md__source_2_s_d_k_2_merchant_01first_01draft_01_s_d_k.html#why-develop-a-bas-mini-app">Why develop a Bas Mini Apps? [5](#why-develop-a-bas-mini-app)</a></p>
+<p><a class="el" href="md__source_2_s_d_k_2_merchant_01first_01draft_01_s_d_k.html#step-by-step-integration-guide">Step by Step Integration Guide [5](#step-by-step-integration-guide)</a></p>
+<p>Easy 3-step process to create your Mini App [5](#easy-3-step-process-to-create-your-mini-app)</p>
+<p><a class="el" href="md__source_2_s_d_k_2_merchant_01first_01draft_01_s_d_k.html#step-1-register">Step 1: Register [6](#step-1-register)</a></p>
+<p><a class="el" href="md__source_2_s_d_k_2_merchant_01first_01draft_01_s_d_k.html#step-2-develop">Step 2: Develop [6](#step-2-develop)</a></p>
+<p><a class="el" href="md__source_2_s_d_k_2_merchant_01first_01draft_01_s_d_k.html#step-3-publish">Step 3: Publish [7](#step-3-publish)</a></p>
+<p><a class="el" href="md__source_2_s_d_k_2_merchant_01first_01draft_01_s_d_k.html#app-review">• App Review [7](#app-review)</a></p>
+<p><a class="el" href="md__source_2_s_d_k_2_merchant_01first_01draft_01_s_d_k.html#go-live">• Go-Live [7](#go-live)</a></p>
+<p><a class="el" href="md__source_2_s_d_k_2_merchant_01first_01draft_01_s_d_k.html#integration-guidelines">Integration Guidelines [8](#integration-guidelines)</a></p>
+<p><a class="el" href="md__source_2_s_d_k_2_merchant_01first_01draft_01_s_d_k.html#login-flow">Login Flow [9](#login-flow)</a></p>
+<p><a class="el" href="md__source_2_s_d_k_2_merchant_01first_01draft_01_s_d_k.html#basfetchauthcode-js-api">basFetchAuthCode JS API [12](#basfetchauthcode-js-api)</a></p>
+<p><a class="el" href="md__source_2_s_d_k_2_merchant_01first_01draft_01_s_d_k.html#use-case">Use Case [12](#use-case)</a></p>
+<p><a class="el" href="md__source_2_s_d_k_2_merchant_01first_01draft_01_s_d_k.html#request-attributes">Request Attributes [13](#request-attributes)</a></p>
+<p><a class="el" href="md__source_2_s_d_k_2_merchant_01first_01draft_01_s_d_k.html#response-attributes">Response Attributes [14](#response-attributes)</a></p>
+<p><a class="el" href="md__source_2_s_d_k_2_merchant_01first_01draft_01_s_d_k.html#post-api">POST: getAccessToken API [15](#post-api)</a></p>
+<p><a class="el" href="md__source_2_s_d_k_2_merchant_01first_01draft_01_s_d_k.html#use-case-1">Use Case [15](#use-case-1)</a></p>
+<p><a class="el" href="md__source_2_s_d_k_2_merchant_01first_01draft_01_s_d_k.html#request-attributes-1">Request Attributes [15](#request-attributes-1)</a></p>
+<p><a class="el" href="md__source_2_s_d_k_2_merchant_01first_01draft_01_s_d_k.html#response-attributes-1">Response Attributes [16](#response-attributes-1)</a></p>
+<p><a class="el" href="md__source_2_s_d_k_2_merchant_01first_01draft_01_s_d_k.html#post-getuserinfo-api">POST: getUserInfo API [18](#post-getuserinfo-api)</a></p>
+<p><a class="el" href="md__source_2_s_d_k_2_merchant_01first_01draft_01_s_d_k.html#use-case-2">Use Case [18](#use-case-2)</a></p>
+<p><a class="el" href="md__source_2_s_d_k_2_merchant_01first_01draft_01_s_d_k.html#request-attributes-2">Request Attributes [18](#request-attributes-2)</a></p>
+<p><a class="el" href="md__source_2_s_d_k_2_merchant_01first_01draft_01_s_d_k.html#response-attributes-2">Response Attributes [19](#response-attributes-2)</a></p>
+<p><a class="el" href="md__source_2_s_d_k_2_merchant_01first_01draft_01_s_d_k.html#payment-flow">Payment Flow [21](#payment-flow)</a></p>
+<p><a class="el" href="md__source_2_s_d_k_2_merchant_01first_01draft_01_s_d_k.html#post-initiate-transaction-order-api">POST: BasPayment JS API [22](#post-initiate-transaction-order-api)</a></p>
+<p><a class="el" href="md__source_2_s_d_k_2_merchant_01first_01draft_01_s_d_k.html#use-case-4">Use Case [22](#use-case-4)</a></p>
+<p><a class="el" href="md__source_2_s_d_k_2_merchant_01first_01draft_01_s_d_k.html#request-attributes-4">Request Attributes [22](#request-attributes-4)</a></p>
+<p><a class="el" href="md__source_2_s_d_k_2_merchant_01first_01draft_01_s_d_k.html#response-attributes-4">Response Attributes [23](#response-attributes-4)</a></p>
+<h1><a class="anchor" id="document-revision-history-1"></a>
+Document Revision History</h1>
+<p><b>APPROVAL HISTORY</b></p>
+<hr  />
+<p> Date Version Description Revision by </p><hr  />
+<p> 2/10/2022 0.01 1^st^ draft version Eissa, Abdullah, Qamhan,Amr &amp; Kamal</p>
+<p>30/10/2022 0.02 2^st^ draft version Eissa &amp; Qamhan</p>
+<p>21/11/2022 0.03 3^st^ draft version Eissa, Kamal &amp; Amr</p>
+<p>5/12/2022 0.04 4^st^ draft version Eissa &amp; Amr</p>
+<p>28/12/2022 0.05 5^st^ draft version Eissa &amp; Ahmed alshaikh</p>
+<h2><a class="anchor" id="autotoc_md722023-----006------6st-draft-version----------eissa--qamhan"></a>
+7/2/2023     0.06      6^st^ draft version          Eissa &amp; Qamhan</h2>
+<hr  />
+<p> Approver Approved Date Version </p><hr  />
+<hr  />
+<h1><a class="anchor" id="gloasry-table-1"></a>
+Gloasry Table</h1>
+<hr  />
+<p> No Item Definition </p><hr  />
+<p> 1 UML Unified Modeling Language</p>
+<p>2 SDK Software Development Kit.</p>
+<p>3 API Application Programming Interface.</p>
+<h2><a class="anchor" id="autotoc_md3----------------------"></a>
+3</h2>
+<h1><a class="anchor" id="bas-mini-apps-1"></a>
+Bas Mini-Apps</h1>
+<h2><a class="anchor" id="what-are-bas-mini-apps-1"></a>
+What are Bas Mini Apps?</h2>
+<p>Bas Mini Apps are web applications that are designed to function like native apps, with features such as push notifications, access to device hardware and sensors, and offline support, effectively meaning your app despite being developed as a web app can still enjoy all the benefits of a native app when being listed as a Mini Apps inside Bas App.</p>
+<p>Furthermore, Bas Mini Apps can be accessed through the Bas App, which provides a convenient and accessible way for users to discover and use new apps. This makes it easier for businesses and developers to reach a wider audience and grow their user base.</p>
+<p> </p>
+<h2><a class="anchor" id="how-bas-mini-apps-works-1"></a>
+How Bas Mini Apps works?</h2>
+<p> </p>
+<ol type="1">
+<li>User clicks on Mini Apps section on the Bas app and finds your app listed in relevant categories.</li>
+<li>User taps on your app icon and we open your integrated m-web. The complete control of the UI is handed to you.</li>
+<li>User logs in/ signs up onto your app using a single click login.</li>
+<li>User can seamlessly pay in your Mini App using the integrated Bas payment flow.</li>
+</ol>
+<h2><a class="anchor" id="why-develop-a-bas-mini-app-1"></a>
+Why develop A BAS MINI APP?</h2>
+<p>Traditional mobile app development can be complex and expensive, with challenges that include maintaining separate codebases for each platform, the cost of user acquisition, and the need to release updates and wait for user adoption.</p>
+<p>Launching as a Bas Mini App can help to alleviate many of these challenges. Because Mini Apps are developed using web technologies, they can be built once and run across multiple platforms, reducing the need for maintaining separate codebases. Additionally, because Mini Apps are hosted within the Bas App, there is no need for costly user acquisition, as users of the Bas App can easily discover and access new Mini Apps.</p>
+<p>Furthermore, Mini Apps can be updated quickly and easily, with changes taking effect immediately without the need for app releases or waiting periods for user adoption. This means that businesses and developers can make changes and updates to their Mini Apps in real-time, providing a more seamless and engaging user experience for their audience. Overall, launching as a Bas Mini App can help to reduce development, testing, and maintenance costs, while providing access to millions of Bas users with minimal effort. </p>
+<h1><a class="anchor" id="step-by-step-integration-guide-1"></a>
+Step by Step Integration Guide</h1>
+<h2><a class="anchor" id="easy-3-step process-to create-your-mini-app-1"></a>
+Easy 3-step process to create your Mini App</h2>
+<hr  />
+<p> Register Develop Publish </p><hr  />
+<hr  />
+<h2><a class="anchor" id="step-1-register-1"></a>
+Step 1: Register</h2>
+<p>The merchant should be provided by the following register information</p>
+<ul>
+<li>**App ID:** The App ID is used to uniquely identify your Mini App within the Bas ecosystem, and it is necessary for a variety of operations, such as registering for push notifications, accessing in-app purchases, and retrieving analytics data. By using a unique App ID, Bas can ensure that interactions between Mini Apps and the Bas platform are secure and isolated from other Mini Apps.</li>
+</ul>
+<p><b>Note :</b> It\'s important to keep your App ID private and secure, as it is essentially a password that grants access to your Mini App within the Bas ecosystem.</p>
+<ul>
+<li>**Merchant Key:** This is a key that use in checksum. You will need this id for any interactions with the Bas ecosystem.</li>
+<li>**Auth client ID and client secret:** These are required for login flow integration for your Mini App.</li>
+</ul>
+<h2><a class="anchor" id="step-2-develop-1"></a>
+Step 2: Develop</h2>
+<p>To onboard as Mini Apps, there are only two mandatory integration merchants need to implement:</p>
+<ul>
+<li><a class="el" href="md__source_2_s_d_k_2_merchant_01first_01draft_01_s_d_k.html#login-flow">Login Integration</a></li>
+<li><a class="el" href="md__source_2_s_d_k_2_merchant_01first_01draft_01_s_d_k.html#payment-flow">Payment Integration</a></li>
+</ul>
+<p>**Note:** Your Mini app cannot have any other login or payment methods other than the one\'s specified above. Using Login or Payment flow is optional depending on your app\'s use case.</p>
+<h2><a class="anchor" id="step-3-publish-1"></a>
+Step 3: Publish</h2>
+<p>Once you have completed the integration, submit your app to Bas team for review.</p>
+<ul>
+<li>### App Review<ul>
+<li>We will review the miniapp soon &amp; feedback.</li>
+</ul>
+</li>
+<li>### Go-Live<ul>
+<li>Congrats! Your go-live request is registered. Your app will be made post a final sanity test by the Bas team in the next 1-2 working days.</li>
+</ul>
+</li>
+</ul>
+<h1><a class="anchor" id="integration-guidelines-1"></a>
+Integration Guidelines</h1>
+<p>In order to provide a seamless experience for end-users, Refacing Bas Mini Apps have some platform expectations from merchants, and it is expected that every 3rd party merchant adheres to these practices..</p>
+<ol type="1">
+<li>The end-user must be able to sign-in into Merchant Mini Apps only through Bas sign-in. There should be no other modes of login like manual user input based login method or social login.</li>
+<li>Payment mode in Mini Apps should only be via. [basPayment](\l) JS API and no other payment modes should be visible during anytime in the app flow.</li>
+<li>Merchants should not send promotional messages by leveraging Notification API.Violation of this would lead to blacklisting of Merchant Notifications.</li>
+<li>There must be no link in the Mini Apps redirecting the user to download Android/iOS app. There should not be any other advertising content and no user redirection out of Mini Apps is allowed.</li>
+<li>It is recommended that Merchants have a well-defined Customer Service flow in Mini Apps.</li>
+</ol>
+<h1><a class="anchor" id="login-flow-1"></a>
+Login Flow</h1>
+<p>Mini Apps platform requires merchant to mandatorily integrate the login flow for Mini Apps. Essentially merchant cannot have a manual sign-in process for the user i.e. whenever a Mini Apps requires user credentials, the only method allowed is via the Login Flow.</p>
+<p> </p>
+<p><b>Note</b>: Mini Apps platform requires merchant to mandatorily integrate the login flow. Essentially merchants can not have a manual sign-in process for the user i.e. whenever a Mini Apps requires user credentials, the only method allowed is via the Bas Login Flow.** **</p>
+<p><img src="img/media/image1.jpeg" alt="" class="inline"/></p>
+<p><b>The login flow for Mini Apps works like this:</b></p>
+<ol type="1">
+<li>User clicks on the merchant app icon on the Bas Mini App Store, Bas &gt; opens the merchant\'s Mini App</li>
+<li>User browses the catalog/ adds items to their cart</li>
+<li>When merchant app flow requires to login the user, user is shown a &gt; popup asking permission to share their credentials with the &gt; merchant</li>
+<li>Once user taps on "Allow", they are seamlessly logged in to the &gt; merchant Mini App.</li>
+</ol>
+<p>**Note:** The consent will only come once and for returning users, the merchant can seamlessly access user details to facilitate login.</p>
+<p><b>Integrating Login flow in Mini Apps involves the following steps:</b></p>
+<p> </p>
+<p><b>Step 1</b>: Call [basFetchAuthCode](\l) JS API at client end to get the Auth Code</p>
+<p>**Step 2:** Call [getAccessToken API](\l) from backend (S2S) to get Auth Token using the Auth Code received in Step 1</p>
+<p>**Step 3:** Call <a class="el" href="md__source_2_s_d_k_2_merchant_01first_01draft_01_s_d_k.html#post-getuserinfo-api">getUserInfo API</a> from backend (S2S) to get user details of Bas users and seamlessly login the user</p>
+<p> </p>
+<p>**Note:** Please ensure the client secret shared during your app onboarding is never passed to your frontend/ m-web in the flow.</p>
+<p> </p>
+<p> </p>
+<p><b>Merchant Side Login Flow Handling</b></p>
+<p>Bas expects the merchant to handle all known scenario arising in a login flow. Following are the scenarios possible:</p>
+<p> </p>
+<h4><a class="anchor" id="consent-allowed-and-all-profile-details-configured-1"></a>
+Consent Allowed and all Profile Details Configured</h4>
+<ul>
+<li>Merchant calls [basFetchAuthCode](\l) JS API and user click on "Allow" in the consent popup. Merchant gets Auth Code as response and then seamlessly login the user, by fetching user details via S2S call.</li>
+</ul>
+<h4><a class="anchor" id="consent-allowed-and-profile-details-incomplete-1"></a>
+Consent Allowed and Profile Details Incomplete</h4>
+<p> </p>
+<h4><a class="anchor" id="consent-denied--user-press-back-on-consent-popup-1"></a>
+Consent Denied / User Press back on consent popup</h4>
+<ul>
+<li>Merchant calls [basFetchAuthCode](\l) JS API and user click on "Deny" in the consent popup. Mini Apps Platform mandates merchants to not allow any form of manual/ social login. To handle consent denied cases, merchant can handle this in the following proposed way:\ \ On click of Deny/Back Button [basFetchAuthCode](\l) JS API will return **error code "-1"** based on that merchants can show a user friendly popup/toast stating something like "Consent is mandatory to
+    proceed" and show CTA of OK/Cancel or Proceed/Exit. On tap of OK/Proceed call the [basFetchAuthCode](\l) JS API again and in case of Cancel/Exit call [popWindow](\l) JS API to take the user back to Bas App.</li>
+</ul>
+<p> </p>
+<p>**Note:** If the user keeps on denying, it is advised to take user out of the Mini Apps after multiple denies.</p>
+<p> </p>
+<h4><a class="anchor" id="user-opens-mini-apps-while-logged-out-from-bas-1"></a>
+User opens Mini Apps while logged out from Bas</h4>
+<ul>
+<li>There can be cases where a user is logged out from Bas App and tries to open any Mini Apps. In such cases when a merchant calls [basFetchAuthCode](\l)JS API, Bas will show the user a login Popup. There can be following cases arising:</li>
+</ul>
+<ol type="1">
+<li>User logs in using the Login Popup: Bas will then proceed with &gt; normal login flow: Show consent and proceed. Merchant does not &gt; need to do any exceptional handling for such a scenario.</li>
+<li>User press Skip Login / Press Hardware back: In this &gt; case [basFetchAuthCode](\l)JS API will return **error code &gt; "-"** based on that merchants should show a user friendly text &gt; stating something like "Login in Bas to Proceed with the Flow" &gt; with possible CTAs of OK/Cancel. On tap of OK &gt; call [basFetchAuthCode](\l) JS API again and on tap of Cancel, &gt; call [popWindow](\l) JS API to take the user back to Bas App.</li>
+</ol>
+<h2><a class="anchor" id="basfetchauthcode-js-api-1"></a>
+basFetchAuthCode JS API</h2>
+<h3><a class="anchor" id="use-case-5"></a>
+Use Case</h3>
+<p>This API can be used to get AuthCode and OpenID for the user accessing the Mini Apps. When merchants front-end calls this method, Bas will show the user a popup asking for permission to share these details. If the user allows on the consent popup same will be shared with the merchants. If the user denies, ideal expectation is for Merchants to call the API again.</p>
+<p><b>Note</b>: No Manual Login from the user is allowed in the Mini Apps platform.</p>
+<p> </p>
+<p>**AuthCode: **This is a one-time use AuthCode passed by Bas to the merchant's Mini Apps frontend/client codebase via JS API. This has a validity of 5 mins and is for single use only. This code is required to fetch the Bas AuthToken via S2S call with Bas's Oauth backend.</p>
+<p> </p>
+<p>**OpenId:** This is a **unique user identifier** passed by Bas to Mini Apps. It remains the same throughout the lifetime of the user.</p>
+<p> </p>
+<h3><a class="anchor" id="request-attributes-6"></a>
+Request Attributes</h3>
+<p>+--------------------------------------------------------------------&mdash;+ | <b>JAVASCRIPT</b> | +=======================================================================+ </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">window.addEventListener("JSBridgeReady", (event) =&gt; {    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">console.log("JSBridgeReady fired");    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">//to do anything you want after SDK is ready    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">basFetchAuthCode();    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">}, false);    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">function basFetchAuthCode(){    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">JSBridge.call(\'basFetchAuthCode\', {    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">clientId: ""    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">}).then(function(result) {\    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">/****** Response Example ******/    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">  /*   {    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">        "status": 1,    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">        "data": {    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">          "authId": "",    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">          "openId": ""    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">         },    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">         "messages": [""]    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">        }*/    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">/****** End Response Example ******/\    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">console.log(JSON.stringify(result));\    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">});   </td></tr>
+</table>
+<p>+--------------------------------------------------------------------&mdash;+ | <b>Flutter</b> | +--------------------------------------------------------------------&mdash;+ | BasSDK.fetchAuthCode(clientId:"Your Id"); | +--------------------------------------------------------------------&mdash;+</p>
+<p>API Content format: JSON</p>
+<p>+------------------&mdash;+---------------------------------------------&mdash;+ | <b>PARAMETER</b> | <b>DESCRIPTION</b> | +=====================+================================================+ </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">clientId   </th><th class="markdownTableHeadNone">Merchant\'s client Id received from Bas    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">mandatory   </td><td class="markdownTableBodyNone"><b>Example</b>: merchant-xyz   </td></tr>
+</table>
+<p>+------------------&mdash;+---------------------------------------------&mdash;+</p>
+<h3><a class="anchor" id="response-attributes-6"></a>
+Response Attributes</h3>
+<h4><a class="anchor" id="success-4"></a>
+Success</h4>
+<p><b>Note</b>: Response will come as JSON with key data.</p>
+<hr  />
+ <h2><a class="anchor" id="success-5"></a>
+SUCCESS</h2>
+<p>{\ "status":1,\ "data":{\ "auth_id":"FD268ED889B7DFB008093D04809E8B7FC26B821421B278",\ "authid":"FD268ED889B7DFB008093D04809E8B7FC26B821421B278",\ "openid":"null",\ "return_url":"null"},\ "messages":["[تمت العملية بنجاح]{dir="rtl"}"]\ }</p>
+<hr  />
+<p>+---------------------&mdash;+------------------------------------------&mdash;+ | <b>PARAMETER</b> | <b>DESCRIPTION</b> | +========================+=============================================+ </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">authId   </th><th class="markdownTableHeadNone">authId generated by Bas    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"><b>Example</b>: abhd-jhsd-ujyt-afrw   </td></tr>
+</table>
+<p>+---------------------&mdash;+------------------------------------------&mdash;+</p>
+<h4><a class="anchor" id="error-responses-3"></a>
+Error Responses</h4>
+<p><b>Note</b>: Response will come as JSON with key data.</p>
+<p>+--------------------------------------------------------------------&mdash;+ | FAIL | +=======================================================================+ </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">{    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    "status": 0,    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    "code": "2001",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    "messages": [    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">        "duplicate order id"    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    ]    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">}   </td></tr>
+</table>
+<p>+--------------------------------------------------------------------&mdash;+</p>
+<p>+------------------------&mdash;+---------------------------------------&mdash;+ | <b>PARAMETER</b> | <b>DESCRIPTION</b> | +===========================+==========================================+ </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">error   </th><th class="markdownTableHeadNone">error code in integers    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"><b>Example</b>: -10    </td></tr>
+</table>
+<p>+------------------------&mdash;+---------------------------------------&mdash;+ </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">errors   </th><th class="markdownTableHeadNone">error message    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"><b>Example</b>: Invalid clientID   </td></tr>
+</table>
+<p>+------------------------&mdash;+---------------------------------------&mdash;+</p>
+<p><a class="anchor" id="error-codes-6"></a> </p><h5>Error Codes</h5>
+<hr  />
+<p> <b>ERROR</b> <b>MESSAGE</b> </p><hr  />
+<hr  />
+<h2><a class="anchor" id="post-api-1"></a>
+POST: API</h2>
+<h3><a class="anchor" id="use-case-6"></a>
+Use Case</h3>
+<p>Merchant can use this API to get the access token corresponding to an Auth Code (received from the App side in the earlier step). For the same merchant, the backend needs to make an S2S call with Bas backend. This token can be used to fetch the user details.</p>
+<p>BaseURL/api/v1/auth/token</p>
+<ol type="1">
+<li>API Name and Type: POST /api/v1/auth/token/</li>
+<li>Request URL<ul>
+<li>Staging Environment<ol type="a">
+<li>BaseURL/api/v1/auth/token</li>
+</ol>
+</li>
+<li>Production Environment<ol type="a">
+<li>Not provided yet.</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>Request Attributes as below:</li>
+</ol>
+<h3><a class="anchor" id="request-attributes-7"></a>
+Request Attributes</h3>
+<p>+--------------------------------------------------------------------&mdash;+ | <b>CURL</b> | +=======================================================================+ </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">curl --location --request POST \' BaseURL/api/v1/auth/token\' \    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">--header \'Content-Type: application/x-www-form-urlencoded\' \    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">--data-urlencode \'client_id=AppName.APP\' \    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">--data-urlencode    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">\'client_secret=90db2315-f829-4abe-9ca3-693a6cdc4acd\' \    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">--data-urlencode \'grant_type=authorization_code\' \    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">--data-urlencode    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">\'co    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">de=340A109BA00BDF496CFA2A5885267C17733822CA0728984E9D5E01394584AC2D\'    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">\    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">--data-urlencode \'redirect_uri= BaseURL/api/v1/auth/callback\'   </td></tr>
+</table>
+<p>+--------------------------------------------------------------------&mdash;+ | | +--------------------------------------------------------------------&mdash;+ | | +--------------------------------------------------------------------&mdash;+</p>
+<p>Content Type : JSON</p>
+<h4><a class="anchor" id="head-4"></a>
+Head</h4>
+<p>+------------------------------------------------------------------&mdash;+&mdash;+ </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">-------&mdash;   </th><th class="markdownTableHeadNone"></th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><b>Key</b> <b>Value</b> <b>Description</b>   </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">-------&mdash;   </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">--&mdash; --------------------------------&mdash; ----------------------&mdash;   </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Authorization Inherit auth from parent   </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Content-Type application/x-www-form-urlencoded   </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">-------&mdash;   </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">----------------------------------------------------------------&mdash;   </td><td class="markdownTableBodyNone"></td></tr>
+</table>
+<p>+=====================================================================+===+ | | | +------------------------------------------------------------------&mdash;+&mdash;+</p>
+<h4><a class="anchor" id="body-5"></a>
+Body</h4>
+<hr  />
+<p> <b>Parameter **Mandatory</b> <b>Static</b> <b>Type</b> <b>Description</b> name** <br  />
+ </p><hr  />
+<p> client_id <img src="vertopal_6e62c777e36f4b63a900056d5e0522a8/media/image2.png" alt="" class="inline"/> <br  />
+</p>
+<p>client_secret <img src="vertopal_6e62c777e36f4b63a900056d5e0522a8/media/image2.png" alt="" class="inline"/> platform</p>
+<p>scope string Client scopes that granted by Bas platform</p>
+<p>grant_type <img src="vertopal_6e62c777e36f4b63a900056d5e0522a8/media/image2.png" alt="" class="inline"/> <br  />
+</p>
+<p>code <img src="vertopal_6e62c777e36f4b63a900056d5e0522a8/media/image2.png" alt="" class="inline"/> SDK (auth id)</p>
+<p>redirect_uri <img src="vertopal_6e62c777e36f4b63a900056d5e0522a8/media/image2.png" alt="" class="inline"/></p>
+<h3><a class="anchor" id="response-attributes-7"></a>
+Response Attributes</h3>
+<h4><a class="anchor" id="head-5"></a>
+Head</h4>
+<p>+--------------------------&mdash;+-------------------------------------&mdash;+ | <b>ATTRIBUTE</b> | <b>DESCRIPTION</b> | +=============================+========================================+ </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">status   </th><th class="markdownTableHeadNone">status of response    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"><b>Example</b>: 200   </td></tr>
+</table>
+<p>+--------------------------&mdash;+-------------------------------------&mdash;+</p>
+<h4><a class="anchor" id="success-6"></a>
+Success</h4>
+<p>+--------------------------------------------------------------------&mdash;+ | <b>SUCCESS</b> | +=======================================================================+ </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">{    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    "access_token":     </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">"FD268ED889B7D33005B5DD81DB7D60FFB008093D04809E8B7FC26B821421B278",    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">    "expires_in": 3600    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">}   </td></tr>
+</table>
+<p>+--------------------------------------------------------------------&mdash;+</p>
+<p>+--------------&mdash;+-------------------------------------------------&mdash;+ | <b>PARAMETER</b> | <b>DESCRIPTION</b> | +=================+====================================================+ </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">access_token   </th><th class="markdownTableHeadNone">access token of the user sent by Bas    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"><b>Example</b>: 7522b293-cad6-4ed8-bdc6-7c3bc3637100   </td></tr>
+</table>
+<p>+--------------&mdash;+-------------------------------------------------&mdash;+ </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">expires   </th><th class="markdownTableHeadNone">expiration time    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"><b>Example</b>: 1570465786000   </td></tr>
+</table>
+<p>+--------------&mdash;+-------------------------------------------------&mdash;+</p>
+<h4><a class="anchor" id="error-responses-4"></a>
+Error Responses</h4>
+<p>+--------------------------------------------------------------------&mdash;+ | <b>FAIL</b> | +=======================================================================+ </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">{    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    "head": null,    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    "Status": 0,    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    "Code": "9001",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    "Messages": [    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">        "invalid_grant"    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    ],    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    "Data": null    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">}   </td></tr>
+</table>
+<p>+--------------------------------------------------------------------&mdash;+</p>
+<p>+--------------------&mdash;+-------------------------------------------&mdash;+ | <b>PARAMETER</b> | <b>DESCRIPTION</b> | +=======================+==============================================+ | head | | +--------------------&mdash;+-------------------------------------------&mdash;+ | Status | 0 | +--------------------&mdash;+-------------------------------------------&mdash;+ </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Code   </th><th class="markdownTableHeadNone">Error code number as string    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">Example:     "Code": "9001"   </td></tr>
+</table>
+<p>+--------------------&mdash;+-------------------------------------------&mdash;+ </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Messages   </th><th class="markdownTableHeadNone">error message    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"><b>Example</b>: Something went wrong   </td></tr>
+</table>
+<p>+--------------------&mdash;+-------------------------------------------&mdash;+ | | | +--------------------&mdash;+-------------------------------------------&mdash;+</p>
+<p><a class="anchor" id="error-codes-7"></a> </p><h5>Error Codes</h5>
+<hr  />
+<p> <b>STATUS</b> <b>ERROR</b> </p><hr  />
+<p> 400 Internal Error</p>
+<p>400 unsupported_grant_type</p>
+<p>400 invalid_grant</p>
+<h2><a class="anchor" id="autotoc_md401---------------------no-response-body"></a>
+401                     NO RESPONSE BODY</h2>
+<h2><a class="anchor" id="post-getuserinfo-api-1"></a>
+POST: getUserInfo API</h2>
+<h3><a class="anchor" id="use-case-7"></a>
+Use Case</h3>
+<p>This API gives a merchant the Bas\'s user details (Profile Name and Phone Number) corresponding to an access token. This should be used to facilitate seamless Login in the merchant\'s system.</p>
+<p>BaseURL/api/v1/auth​/userinfo</p>
+<ol type="1">
+<li>POST /api/v1/auth/userinfo/</li>
+<li>Request URL<ul>
+<li>Staging Environment<ol type="a">
+<li>BaseURl/api/v1/auth/userinfo/</li>
+</ol>
+</li>
+<li>Production Environment<ol type="a">
+<li>Not provided yet.</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>Header Description</li>
+</ol>
+<h3><a class="anchor" id="request-attributes-8"></a>
+Request Attributes</h3>
+<p>Content Type: JSON</p>
+<p>+--------------------------------------------------------------------&mdash;+ | <b>CURL</b> | +=======================================================================+ </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">curl **-**X GET BaseURL/api/v1/auth​/userinfo\'    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">**--**header \'Authorization: Bearer    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">YWxhZGRpbjpvcGVuc2VzYW1l......\'   </td></tr>
+</table>
+<p>+--------------------------------------------------------------------&mdash;+ | <b>JAVASCRIPT</b> | +--------------------------------------------------------------------&mdash;+ </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone"><b>const</b> url **=** BaseURL/api/v1/auth​/userinfo\'    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><b>const</b> otherParams **=** **{**    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">headers**:** **{**    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">"Authorization"**:** " Bearer YWxhZGRpbjpvcGVuc2VzYW1l..."**,**    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">**},**    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">method**:** "GET"    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">**};**    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">fetch**(<b>url</b>,** otherParams**).**then**(<b>res **=&gt;</b>    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">res**.**json**()).**then**(<b>res **=&gt;</b>    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">console**.**log**(<b>res</b>)).catch(<b>err **=&gt;</b>    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">console**.**log**(<b>err</b>))**   </td></tr>
+</table>
+<p>+--------------------------------------------------------------------&mdash;+</p>
+<h4><a class="anchor" id="head-6"></a>
+Head</h4>
+<hr  />
+<p> <b>Key</b> <b>Value</b> <b>Description</b> </p><hr  />
+<p> Authorization Bearer token Access token.</p>
+<p>Content-Type application/json <br  />
+</p>
+<hr  />
+<h3><a class="anchor" id="response-attributes-8"></a>
+Response Attributes</h3>
+<p>Content Type: JSON</p>
+<h4><a class="anchor" id="head-7"></a>
+Head</h4>
+<p>+-------------------------&mdash;+--------------------------------------&mdash;+ | <b>ATTRIBUTE</b> | <b>DESCRIPTION</b> | +============================+=========================================+ </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">status   </th><th class="markdownTableHeadNone">status of response    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">string   </td><td class="markdownTableBodyNone"><b>Example</b>: 200   </td></tr>
+</table>
+<p>+-------------------------&mdash;+--------------------------------------&mdash;+</p>
+<h4><a class="anchor" id="success-7"></a>
+Success:</h4>
+<p>+--------------------------------------------------------------------&mdash;+ | <b>SUCCESS</b> | +=======================================================================+ </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">{    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    "head": null,    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    "status": 1,    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    "code": "1111",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    "messages": null,    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    "data": {    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">        "open_id": "73ad3a7b-ed76-484b-bea3-eea96ca8021d",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">        "user_name": "771766774",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">        "name": "Ahmed",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">        "phone": "771766774"    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    }    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">}   </td></tr>
+</table>
+<p>+--------------------------------------------------------------------&mdash;+</p>
+<h4><a class="anchor" id="error-codes-8"></a>
+Error Codes</h4>
+<p>+--------------------------------------------------------------------&mdash;+ | <b>FAIL</b> | +=======================================================================+ </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">{    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    "status": 0,    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    "code": "2001",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    "messages": [    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">        "duplicate order id"    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    ]    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">}   </td></tr>
+</table>
+<p>+--------------------------------------------------------------------&mdash;+</p>
+<hr  />
+<p> <b>RESPONSE CODE</b> <b>STATUS</b> <b>MESSAGE</b> </p><hr  />
+<p> 401 Failure Unauthorized Request</p>
+<p>434 Failure Bad Request</p>
+<p>530 Failure Insufficient parameters</p>
+<p>827 Failure There was issue in processing request</p>
+<p>514 Failure User Not Found</p>
+<p>827 Failure There was issue in processing request</p>
+<p>1301 Failure Client does not have permission to fetch</p>
+<h2><a class="anchor" id="autotoc_md3005-----------------failure------blocked-due-to-security-reasons"></a>
+3005                 Failure      Blocked due to security reasons</h2>
+<h1><a class="anchor" id="payment-flow-1"></a>
+Payment Flow</h1>
+<p>You can leverage Bas's best in class Payment Gateway in your Mini Apps. </p>
+<p><img src="vertopal_6e62c777e36f4b63a900056d5e0522a8/media/image3.emf" alt="" class="inline"/></p>
+<p><b>The Payment flow for Mini Apps works like this:</b></p>
+<ol type="1">
+<li>User adds items to your cart and clicks on Proceeds to Pay</li>
+<li>User is then shown a popup of Bas PG right within Bas App, where all configured payment modes are visible.</li>
+<li>User completes payment and is landed back seamlessly to your Mini Apps.</li>
+</ol>
+<p>**Note:** Note: callbackUrl in <a href="https://developer.Bas.com/docs/api/initiate-transaction-api/">Initiate Transaction API </a>is mandatory in case of Mini Apps PG flow. Merchant during Initiate Transaction API can either use the default callbackURL(<a href="https://securegw.Bas.in/theia/BasCallback?ORDER_ID=#OrderId#">https://securegw.Bas.in/theia/BasCallback?ORDER_ID=#OrderId#</a> where #OrderId# is actual OrderId used for initating transaction) or pass their custom URL . Please ensure that the custom URL should not throw any network error and should be secured by SSL layer.</p>
+<p><b>Integrating Payment flow in Mini Apps involves the following steps:</b></p>
+<ol type="1">
+<li>Once the user has clicked the pay button on the mini app the merchant app backend server should call the [Initiate Transaction Order API](<a href="https://developer.Bas.com/docs/api/initiate-transaction-api/">https://developer.Bas.com/docs/api/initiate-transaction-api/</a>)</li>
+<li>The merchant app server will get a Transaction Token from Bas server.</li>
+<li>Merchant miniapp need to call the Bas <a class="el" href="md__source_2_s_d_k_2_merchant_01first_01draft_01_s_d_k.html#post-initiate-transaction-order-api">basPayment JS API</a> with the required following payload.</li>
+<li>Bas show the payment page to the user.</li>
+<li>User select the payment method &amp; click checked.</li>
+<li>Bas check the parameter &amp; start call the <a href="https://developer.Bas.com/docs/api/initiate-transaction-api/">Initiate Transaction API</a> of payment gateway.</li>
+<li>Bas processes the transaction with the user's payment method and returns transaction response to your App.</li>
+<li>You call <a href="https://developer.Bas.com/docs/api/initiate-transaction-api/">status Transaction API</a> to verify the transaction response</li>
+<li>Notify the payment status to user and proceed with the order/service fulfilment.</li>
+</ol>
+<h2><a class="anchor" id="post-initiate-transaction-order-api-1"></a>
+POST: initiate Transaction Order API</h2>
+<p>URL :</p>
+<p><a href="https://stagebas.yk-bank.com:9101/api/v1/merchant/secure/transaction/initiate">BaseURL/api/v1/merchant/secure/transaction/initiate</a></p>
+<h3><a class="anchor" id="use-case-8"></a>
+Use Case</h3>
+<p>To start transaction order for native flow, merchant need to first call this api and send the order info to BAS backend, BAS will create transaction order ID and return the txn Token which will be used in all the other native APIs.</p>
+<p>+--------------------------------------------------------------------&mdash;+ </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Note:    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">The body tag element should be after header &amp; the last one (that mean    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">no element after body tag element) as it is below.   </td></tr>
+</table>
+<p>+=======================================================================+ +--------------------------------------------------------------------&mdash;+</p>
+<p>+--------------------------------------------------------------------&mdash;+ | <b>Sample</b> | +=======================================================================+ </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">{    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    "head": {    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">        "signature": "",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">"requestTimestamp":""    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    },    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    "body": {    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">"requestTimestamp":"",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">        "appId": "fdd4b312-c451-40fc-adc5-7c2ed83c4324",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">        "OrderType": "PayBill",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">        "customerInfo": {    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">            "id": "50",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">            "name": "[الشامي للتجارة العامة]{dir="rtl"}"    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">        },    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">        "amount": {    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">            "value": 1100.0,    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">            "currency": "YER"    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">        },    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">        "orderId": "78542856444363899",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">        "callBackUrl": "gdgfdfdgfdc",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">        "orderDetails": {    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">            "SENDER_MOBILE": "772612217",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">            "RECEIVER_MOBILE": "711271124"    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">        }    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    }    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">}​   </td></tr>
+</table>
+<p>+--------------------------------------------------------------------&mdash;+</p>
+<h3><a class="anchor" id="request-attributes-9"></a>
+Request Attributes</h3>
+<h4><a class="anchor" id="body-6"></a>
+Body</h4>
+<p>+---------&mdash;+--------&mdash;+-----------------------------------------&mdash;+ | Paramter | ATTRIBUTE | DESCRIPTION | | name | | | +============+===========+============================================+ </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">appId   </th><th class="markdownTableHeadNone">string   </th><th class="markdownTableHeadNone">Merchant appid in Bas.    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">mandatory   </td><td class="markdownTableBodyNone">**Example:** v1   </td></tr>
+</table>
+<p>+---------&mdash;+--------&mdash;+-----------------------------------------&mdash;+ | signature | signature | BasApp validates the request and ensures | | | | that parameters are not tempered | | | string | | </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone"></th><th class="markdownTableHeadNone"></th><th class="markdownTableHeadNone">by verifying the signature in the request.    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">For creating the checksum (signature)    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">refer to the steps given in [Checksum    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">Logic](    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"><a href="https://business.bas.com/docs/checksum/">https://business.bas.com/docs/checksum/</a>).    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">**Note:** Create the signature using the    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">body parameter of the request.   </td></tr>
+</table>
+<p>+---------&mdash;+--------&mdash;+-----------------------------------------&mdash;+ | reques | long | The request start datetime. | | tTimestamp | | | | | mandatory | | +---------&mdash;+--------&mdash;+-----------------------------------------&mdash;+ | c | ca | BasApp sends the response of transaction | | allBackUrl | llbackUrl | on the URL which comes in the callbackUrl | | | | parameter. If this param is not present | | | string | then websiteName param key will be used to | | | | get the static callbackUrl. | | | co | Example: [<a href="https://">https://</a>&lt;callback URL to be | | | nditional | used by | | | | merchant&gt;](<a href="https://business.ba">https://business.ba</a> | | | | s.com/docs/api/initiate-transaction-api/)\ | | | | **Note:** Either of websiteName or | | | | callbackUrl should be passed in the | | | | request. | +---------&mdash;+--------&mdash;+-----------------------------------------&mdash;+ | amount | amount | This parameter is an object and should | | | | contain the value of transaction i.e. | </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone"></th><th class="markdownTableHeadNone">string   </th><th class="markdownTableHeadNone">amount and currency type.    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">mandatory   </td><td class="markdownTableBodyNone">**Example:** {"value" : 1.00,    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">"currency" : "YER"}   </td></tr>
+</table>
+<p>+---------&mdash;+--------&mdash;+-----------------------------------------&mdash;+ | orderId | orderId | This is unique reference ID for a | | | | transaction which is generated by merchant | </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone"></th><th class="markdownTableHeadNone">String   </th><th class="markdownTableHeadNone">and sent in the request.    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">mandatory   </td><td class="markdownTableBodyNone"></td></tr>
+</table>
+<p>+---------&mdash;+--------&mdash;+-----------------------------------------&mdash;+ </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">orderType   </th><th class="markdownTableHeadNone">orderType   </th><th class="markdownTableHeadNone">It is order classification    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">String   </td><td class="markdownTableBodyNone">Example    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">optional   </td><td class="markdownTableBodyNone"></td></tr>
+</table>
+<p>+---------&mdash;+--------&mdash;+-----------------------------------------&mdash;+ | cu | cus | User information contains user details | </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">stomerInfo   </th><th class="markdownTableHeadNone">tomerInfo   </th><th class="markdownTableHeadNone">like customer ID, email, phone number etc.    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">object   </td><td class="markdownTableBodyNone">Only Customer ID is mandatory    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">optional   </td><td class="markdownTableBodyNone"></td></tr>
+</table>
+<p>+---------&mdash;+--------&mdash;+-----------------------------------------&mdash;+ | or | object | Any information that need which not | | derDetails | | include in the above. | | | optional | | </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone"></th><th class="markdownTableHeadNone"></th><th class="markdownTableHeadNone"><b>Example</b>:    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">" orderDetails    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">": {"refrence_Code\    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">": \"ref_10\", \"batch_Code\": \"b_145\" }   </td></tr>
+</table>
+<p>+---------&mdash;+--------&mdash;+-----------------------------------------&mdash;+</p>
+<h3><a class="anchor" id="response-attributes-9"></a>
+Response Attributes</h3>
+<p>Content Type : JSON</p>
+<p>+--------------------------------------------------------------------&mdash;+ | <b>Success</b> | +=======================================================================+ </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">{    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"> "head": {    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">        "signature": "",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">"requestTimestamp":"1670262606784"    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    },    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    "body": {    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">"trxStatusId":0,    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">   "trxStatus": "Recoreded",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">"trxId": "cbcb8f9f-f165-4fc4-acb7-0349a8341a50",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">      </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">      "trxToken": "esxW86q22khy0PMRY3OhRqG7xeUzEznSUFkwMjg3MA==",    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">        "authenticated": **true**,    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">        "timestamp": 0,    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">        "isTokenExpired": **false**,    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">        "order": {    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">            "appId": "fdd4b312-c451-40fc-adc5-7c2ed83c4324",    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">            "orderId": "02870",    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">            "amount": {    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">                "value": 200450.0,    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">                "currency": "YER"    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">            },    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">            "description": "[سداد فاتورة رقم 02870]{di    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">r="rtl"}\n [لدى]{dir="rtl"} \n[الشحن وتسديد الفواتير]{dir="rtl"}",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">            "callBackUrl": "gdgfdfdgfdc",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">            "creationDate": "2022-10-25T17:04:16.3277132+00:00",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">            "orderDetails": {    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">                             }    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">        }    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    },    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    "status": 1,    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    "code": "1111",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    "messages": [    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">        "Success"    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    ],    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">}​   </td></tr>
+</table>
+<p>+--------------------------------------------------------------------&mdash;+</p>
+<h4><a class="anchor" id="body-7"></a>
+Body</h4>
+<p>+----&mdash;+------&mdash;+-------------------------------------------------&mdash;+ | ATTR | | DESCRIPTION | | IBUTE | | | +=======+=========+====================================================+ | t | int | The status process or step name of the transaction | | rxSta | | with success. | | tusId | | | | | | To all names go to [body Transaction | </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone"></th><th class="markdownTableHeadNone"></th><th class="markdownTableHeadNone">Status](#body-transaction-status)    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">Example:    **" trxStatusId":** "1011"   </td></tr>
+</table>
+<p>+----&mdash;+------&mdash;+-------------------------------------------------&mdash;+ | trxS | string | The status process or step name of the transaction | </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">tatus   </th><th class="markdownTableHeadNone"></th><th class="markdownTableHeadNone">with success.    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">To all names go to <a class="el" href="md__source_2_s_d_k_2_merchant_01first_01draft_01_s_d_k.html#body-transaction-status">body Transaction </a>   </td></tr>
+<tr class="&amp;quot;markdownTableRowEven&amp;quot;">
+<td class="&amp;quot;markdownTableBodyNone&amp;quot;"></td><td class="&amp;quot;markdownTableBodyNone&amp;quot;"></td><td class="&amp;quot;markdownTableBodyNone&amp;quot;">Status"    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">Example:    "trxStatus": "Recoreded"   </td></tr>
+</table>
+<p>+----&mdash;+------&mdash;+-------------------------------------------------&mdash;+ | | | | +----&mdash;+------&mdash;+-------------------------------------------------&mdash;+ | s | status | This parameter gives the information about the | | tatus | | result of the API response | | | int | | | int | | | +----&mdash;+------&mdash;+-------------------------------------------------&mdash;+ | Trx | tr | This is the unique transaction token received in | | Token | ansacti | the response of <a href="https:/                                       |
+| s     |         | /business.Bas.com/docs/initiate-transaction-api/">Initiate Transaction | | | onToken | API</a>. | </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">tring   </th><th class="markdownTableHeadNone">string   </th><th class="markdownTableHeadNone">It is valid for 15 minutes.    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">**Exampl    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">e: **f0bed899539742309eebd8XXXX7edcf61588842333227   </td></tr>
+</table>
+<p>+----&mdash;+------&mdash;+-------------------------------------------------&mdash;+ </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">code   </th><th class="markdownTableHeadNone">code   </th><th class="markdownTableHeadNone">"111" success else fail    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">int   </td><td class="markdownTableBodyNone">string   </td><td class="markdownTableBodyNone"></td></tr>
+</table>
+<p>+----&mdash;+------&mdash;+-------------------------------------------------&mdash;+ | sign | si |  "head": { | | ature | gnature | | | | |         "signature": "jAHRz1SFik | | s | string | aa//FytXx4lRojZAzNEU9r0gkxlTJIrtX8pu2mykJ7HS9NcL9L | | tring | | zde9UMyqrlrR6noiT4zzaeLrMvJObRnnxlHCGTl9a44V/FY=" | | | ma | | | | ndatory |     }, | +----&mdash;+------&mdash;+-------------------------------------------------&mdash;+ | c | call | BasApp sends the response of transaction on the | | allBa | backUrl | URL which comes in the callbackUrl parameter. If | | ckUrl | | this param is not present then websiteName param | | | string | key will be used to get the static callbackUrl. | | | | Example: <a href="https://bus                            |
+|       | itional | iness.bas.com/docs/api/initiate-transaction-api/">https://&lt;callback URL to be used by | | | cond | merchant&gt;</a>\ | | | | **Note:** Either of websiteName or callbackUrl | | | | should be passed in the request. | +----&mdash;+------&mdash;+-------------------------------------------------&mdash;+ | a | amount | This parameter is an object and should contain the | | mount | | value of transaction i.e. amount and currency | </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone"></th><th class="markdownTableHeadNone">string   </th><th class="markdownTableHeadNone">type.    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">ma   </td><td class="markdownTableBodyNone">**Example:** {"value" : 1.00, "currency" :    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">ndatory   </td><td class="markdownTableBodyNone">"YER"}   </td></tr>
+</table>
+<p>+----&mdash;+------&mdash;+-------------------------------------------------&mdash;+ | or | orderId | This is unique reference ID for a transaction | | derId | | which is generated by merchant and sent in the | </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone"></th><th class="markdownTableHeadNone">String   </th><th class="markdownTableHeadNone">request.    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">ma   </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">ndatory   </td><td class="markdownTableBodyNone"></td></tr>
+</table>
+<p>+----&mdash;+------&mdash;+-------------------------------------------------&mdash;+ | orde | or | Not used. | </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">rType   </th><th class="markdownTableHeadNone">derType   </th><th class="markdownTableHeadNone"></th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">String   </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">o   </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">ptional   </td><td class="markdownTableBodyNone"></td></tr>
+</table>
+<p>+----&mdash;+------&mdash;+-------------------------------------------------&mdash;+ | cu | custo | User information contains user details like | | stome | merInfo | customer ID, email, phone number etc. | | rInfo | | | </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone"></th><th class="markdownTableHeadNone">object   </th><th class="markdownTableHeadNone">Only Customer ID is mandatory    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">o   </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">ptional   </td><td class="markdownTableBodyNone"></td></tr>
+</table>
+<p>+----&mdash;+------&mdash;+-------------------------------------------------&mdash;+ | or | object | Any information that need which not include in the | | derDe | | above. | | tails | o | | </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone"></th><th class="markdownTableHeadNone">ptional   </th><th class="markdownTableHeadNone"><b>Example</b>:    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">" orderDetails    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">": {"refren    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">ce_Code": "ref_10", "batch_Code": "b_145" }   </td></tr>
+</table>
+<p>+----&mdash;+------&mdash;+-------------------------------------------------&mdash;+</p>
+<h3><a class="anchor" id="response-code--messages-2"></a>
+Response Code &amp; Messages</h3>
+<p>+--------------------------------------------------------------------&mdash;+ | <b>FAIL</b> | +=======================================================================+ </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">{    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    "status": 0,    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    "code": "2001",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    "messages": [    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">        "duplicate order id"    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    ]    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">}   </td></tr>
+</table>
+<p>+--------------------------------------------------------------------&mdash;+</p>
+<p><a class="anchor" id="error-codes-9"></a> </p><h5>Error Codes</h5>
+<hr  />
+<p> <b>RESPCODE</b> <b>STATUS</b> <b>RESPMSG</b> </p><hr  />
+<p> 2001 0 duplicate order id</p>
+<p>2002 0 Order_currency_not_correct </p>
+<p>2003 0 Order_amount_not_correct</p>
+<p>2004 0 No_transaction_found</p>
+<p>2005 0 No_provider_miniApp_found</p>
+<h2><a class="anchor" id="autotoc_md9999---------------0---------------something-went-wrong"></a>
+9999               0               Something went wrong</h2>
+<h2><a class="anchor" id="post-baspayment-js-api-1"></a>
+POST: basPayment JS API</h2>
+<h3><a class="anchor" id="use-case-9"></a>
+Use Case</h3>
+<p>This method can be used to invoke the Bas payment option, user will be able to see all the available payment options, and after a successful transaction client-side will receive the callback.</p>
+<h3><a class="anchor" id="request-attributes-10"></a>
+Request Attributes</h3>
+<p>Content Format: JSON</p>
+<p>+--------------------------------------------------------------------&mdash;+ | <b>JAVASCRIPT</b> | +=======================================================================+ </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">function basPayment(){    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">JSBridge.call(\'basPayment\', {    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">"amount": {    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">"value": "1.00",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">"currency": "YER",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">},    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">"orderId": "0071490615",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">"transactionToken":    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">"fe795335ed3049c78a57271075f2199e1526969112097",    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">"appId": " ABCdj00008000000"    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">}).then(function(result) {    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">/****** Response Example ******/    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">/*{    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">"appid": "",    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">"orderId": "",    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">"transactionId": "",    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">"amount": {    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">"value": 0,    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">"currency": "YER"    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">},    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">"paymentType": "",    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">"date": "",    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">"status":1    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">}*/    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">/****** End Response Example ******/    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">console.log(JSON.stringify(result));    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">});   </td></tr>
+</table>
+<p>+--------------------------------------------------------------------&mdash;+ | <b>Flutter</b> | +--------------------------------------------------------------------&mdash;+ </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">BasSDK.payment({    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Amount=100,\    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">currency=**\'YER\'**,\    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">orderId= **\'YOUR ORDER ID\'**,\    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">trxToken= **\'\'**,\    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">appId= **\'YOUR APP ID\'**    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">}).then((Transaction? transaction){    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">})   </td></tr>
+</table>
+<p>+--------------------------------------------------------------------&mdash;+ | | +--------------------------------------------------------------------&mdash;+</p>
+<p>+---------&mdash;+------------------------------------------------------&mdash;+ | <b>P | **DESCRIPTION</b> | | ARAMETER** | | +============+=========================================================+ </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">amount   </th><th class="markdownTableHeadNone">Amount to be paid by the customer in YER    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">mandatory   </td><td class="markdownTableBodyNone"><b>Example</b>: 1.00   </td></tr>
+</table>
+<p>+---------&mdash;+------------------------------------------------------&mdash;+ | orderId | Unique reference ID for a transaction which is | </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">mandatory   </th><th class="markdownTableHeadNone">generated by merchant and sent in the request    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"><b>Example</b>: 0071490615   </td></tr>
+</table>
+<p>+---------&mdash;+------------------------------------------------------&mdash;+ | trxToken | It is the security token generated by [Initiate | | mandatory | Transaction | | | API ](<a href="https://d">https://d</a> | | | eveloper.Bas.com/docs/api/initiate-transaction-api/)for | </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone"></th><th class="markdownTableHeadNone">a transaction. It is valid for 15 minutes.    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">**E    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">xample**: fe795335ed3049c78a57271075f2199e1526969112097   </td></tr>
+</table>
+<p>+---------&mdash;+------------------------------------------------------&mdash;+ | appId | This is a unique identifier provided to every merchant | </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">mandatory   </th><th class="markdownTableHeadNone">by Bas    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"><b>Example</b>: ABCdj00008000000   </td></tr>
+</table>
+<p>+---------&mdash;+------------------------------------------------------&mdash;+</p>
+<h3><a class="anchor" id="response-attributes-10"></a>
+Response Attributes</h3>
+<p>Once the payment is done, the response callback is received, which can be in either of the two formats:</p>
+<ul>
+<li>{"data": false} if no response string was generated by the internal payment mechanism, due to an unknown reason.</li>
+<li>{"data": ""} if some unknown error occured.</li>
+<li>{"data": } if a response string was successfully generated.</li>
+</ul>
+<p><b>Note</b>:If the value against "data" key is a string, it should be parsed into a json to obtain the response attributes detailed below. In this case, the json thus parsed contains fields indicating whether the payment succeeded or failed (along with the reason for failure).</p>
+<h4><a class="anchor" id="success-8"></a>
+Success</h4>
+<p>+--------------------------------------------------------------------&mdash;+ | <b>SUCCESS</b> | +=======================================================================+ | /****** Response Example ******/\ | </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">/*{    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">          "status": 1,​    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">          "data": {    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">           "appId": "",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">           "orderId": "",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">           "transactionId": "",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">           "amount": {    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">             "value": 0,    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">             "currency": "YER"    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">           },    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">           "paymentType": "",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">           "date": "",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">           "status":1    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">         },    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">          "messages": [""]    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">        }*/\    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">/****** End Response Example ******   </td></tr>
+</table>
+<p>+--------------------------------------------------------------------&mdash;+</p>
+<p>+---------&mdash;+------------------------------------------------------&mdash;+ | <b>P | **DESCRIPTION</b> | | ARAMETER** | | +============+=========================================================+ | status | It shows the transaction status and has only three | </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone"></th><th class="markdownTableHeadNone">values: success 1, fail 0 and PENDING    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"><b>Example</b>: 1   </td></tr>
+</table>
+<p>+---------&mdash;+------------------------------------------------------&mdash;+ </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">data   </th><th class="markdownTableHeadNone">It object contain order information    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"><b>Example</b>: "data": {    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">           "appId": "",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">           "orderId": "",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">           "transactionId": "",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">           "amount": {    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">             "value": 0,    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">             "currency": "YER"    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">           },    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">           "paymentType": "",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">           "date": "","status":1     }   </td></tr>
+</table>
+<p>+---------&mdash;+------------------------------------------------------&mdash;+ | messages | | +---------&mdash;+------------------------------------------------------&mdash;+ | | | +---------&mdash;+------------------------------------------------------&mdash;+ | | | +---------&mdash;+------------------------------------------------------&mdash;+</p>
+<h4><a class="anchor" id="error-responses-5"></a>
+Error Responses</h4>
+<p>+--------------------------------------------------------------------&mdash;+ | <b>FAIL</b> | +=======================================================================+ </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">{    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    "status": 0,    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    "code": "2001",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    "messages": [    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">        "duplicate order id"    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    ]    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">}   </td></tr>
+</table>
+<p>+--------------------------------------------------------------------&mdash;+</p>
+<p>+-------------------------&mdash;+--------------------------------------&mdash;+ | <b>PARAMETER</b> | <b>DESCRIPTION</b> | +============================+=========================================+ </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">error.code   </th><th class="markdownTableHeadNone">Error code    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"><b>Example</b>: 0   </td></tr>
+</table>
+<p>+-------------------------&mdash;+--------------------------------------&mdash;+ | | | +-------------------------&mdash;+--------------------------------------&mdash;+</p>
+<p><a class="anchor" id="error-codes-10"></a> </p><h5>Error Codes</h5>
+<hr  />
+<p> <b>RESPCODE</b> <b>STATUS</b> <b>RESPMSG</b> </p><hr  />
+<p> 1101 0 Invalid transaction token</p>
+<p>1102 0 Transaction token expired</p>
+<p>1103 0 Checksum provided is invalid</p>
+<p>1104 0 Invalid timeStamp</p>
+<p>2001 0 Duplicate order id</p>
+<p>2002 Order currency not correct</p>
+<p>2003 Order amount not correct </p>
+<p>2004 No transaction found</p>
+<p>2005 No provider miniApp found </p>
+<h2><a class="anchor" id="autotoc_md9999---------------0---------------something-went-wrong-1"></a>
+9999               0               Something went wrong</h2>
+<h2><a class="anchor" id="post-check-transaction-status-api-1"></a>
+POST: check Transaction Status API</h2>
+<h3><a class="anchor" id="user-case-1"></a>
+User Case</h3>
+<p>This method can be call to check the payment transaction status if success or fail</p>
+<p>Its return the final transaction payment status.</p>
+<p>URL:</p>
+<p><a href="https://stagebas.yk-bank.com:9101/api/v1/merchant/secure/transaction/status">BaseURL/api/v1/merchant/secure/transaction/status</a></p>
+<p>+--------------------------------------------------------------------&mdash;+ | <b>Sample</b> | +=======================================================================+ </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">{    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">      </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">"head": {    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">        "signature": "",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">"requestTimestamp":""    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    },    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">  "body": {    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">"requestTimestamp":"",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">" appId ": " fdd4b312-c451-40fc-adc5-7c2ed83c4324",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    "orderId": "officia in elit aliquip",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">        </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">}   </td></tr>
+</table>
+<p>+--------------------------------------------------------------------&mdash;+</p>
+<h3><a class="anchor" id="request-attributes-11"></a>
+Request Attributes</h3>
+<h4><a class="anchor" id="body-8"></a>
+Body</h4>
+<p>+-------&mdash;+----&mdash;+------------------------------------------------&mdash;+ | Paramter | ATTR | DESCRIPTION | | name | IBUTE | | +==========+=======+===================================================+ | orderId | s | Order ID for the transaction. | | | tring | | | | | <b>Example:</b> | | | mand | { "orderId": "aliquip magna occaecat sint"} | | | atory | | +-------&mdash;+----&mdash;+------------------------------------------------&mdash;+ | appId | s | Merchant appid in Bas. | | | tring | | | | | **Example:** v1 | | | mand | | | | atory | | +-------&mdash;+----&mdash;+------------------------------------------------&mdash;+ | s | sign | BasApp validates the request and ensures that | </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">ignature   </th><th class="markdownTableHeadNone">ature   </th><th class="markdownTableHeadNone">parameters are not tempered    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">s   </td><td class="markdownTableBodyNone">by verifying the signature in the request.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">tring   </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">For creating the checksum (signature) refer to    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">the steps given in <a href="CheckSum.docx">Checksum    &lt;tr class="markdownTableRowOdd"&gt; &lt;td class="markdownTableBodyNone"&gt;   &lt;td class="markdownTableBodyNone"&gt;   &lt;td class="markdownTableBodyNone"&gt; Logic</a>.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">**Note:** Create the signature using the body    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">parameter of the request.   </td></tr>
+</table>
+<p>+-------&mdash;+----&mdash;+------------------------------------------------&mdash;+ | requestT | long | The request start datetime. | | imestamp | | | | | mand | | | | atory | | +-------&mdash;+----&mdash;+------------------------------------------------&mdash;+</p>
+<h3><a class="anchor" id="response-attributes-11"></a>
+Response Attributes</h3>
+<h4><a class="anchor" id="body-9"></a>
+Body</h4>
+<p>Content Type : JSON</p>
+<p>+--------------------------------------------------------------------&mdash;+ | <b>Success</b> | +=======================================================================+ </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">{    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">  "status": 1,    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">  "code": "111",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">  "messages": [    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    "et commodo sed",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    "sint enim est"    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">  ],    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">"head": {    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">        "signature": ""    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    },    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">  "body": {    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">     "trxStatusId": "1011",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">        "trxStatus": "Recoreded",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">      </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">      "trxToken": "M1wcauvW2kj+bvetsjv7Tr1N4ydfmFXcUFkxMjUyMjM1",    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">        "timestamp": 0,    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">        "order": {    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">            "appId": "fdd4b312-c451-40fc-adc5-7c2ed83c4324",    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">            "orderId": "1252235",    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">            "amount": {    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">                "value": 1100.0,    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">                "currency": "YER"    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">            },    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">            "description": "[سداد فاتورة رقم 1252235]{di    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">r="rtl"}\n [لدى]{dir="rtl"} \n[الشحن وتسديد الفواتير]{dir="rtl"}",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">            "callBackUrl": "gdgfdfdgfdc",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">            "orderDetails": {    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">                  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">             }    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">        }    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">  }    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">}   </td></tr>
+</table>
+<p>+--------------------------------------------------------------------&mdash;+</p>
+<h4><a class="anchor" id="body-transaction-status-1"></a>
+Body Transaction Status</h4>
+<hr  />
+<p> <b>STATUSID</b> <b>STATUS</b> <b>RESPMSG</b> </p><hr  />
+<p> 1001 0 Failed</p>
+<p>1002 0 Initiate</p>
+<p>1003 0 Success</p>
+<p>1004 0 Incomplete</p>
+<p>1005 0 Pending</p>
+<p>1006 0 Refunded</p>
+<p>1007 0 Flagged</p>
+<p>1008 0 Cancelled</p>
+<p>1009 0 UserDropped</p>
+<p>1010 0 NotAttempted</p>
+<p>1011 0 Recorded</p>
+<p>1111 0 Complete</p>
+<hr  />
+<h3><a class="anchor" id="response-code--messages-3"></a>
+Response Code &amp; Messages</h3>
+<p>+--------------------------------------------------------------------&mdash;+ | <b>FAIL</b> | +=======================================================================+ </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">{    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    "status": 0,    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    "code": "9999",    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    "messages": [    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">        "Something went wrong"    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">    ]    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">}   </td></tr>
+</table>
+<p>+--------------------------------------------------------------------&mdash;+</p>
+<h4><a class="anchor" id="error-codes-11"></a>
+Error Codes</h4>
+<hr  />
+<p> <b>RESPCODE</b> <b>STATUS</b> <b>RESPMSG</b> </p><hr  />
+<p> 1101 0 Invalid transaction token</p>
+<p>1102 0 Transaction token expired</p>
+<p>1103 0 Checksum provided is invalid</p>
+<p>1104 0 Invalid timeStamp</p>
+<p>2001 0 Duplicate order id</p>
+<p>2002 Order currency not correct</p>
+<p>2003 Order amount not correct </p>
+<p>2004 No transaction found</p>
+<p>2005 No provider miniApp found </p>
+<h2><a class="anchor" id="autotoc_md9999---------------0---------------something-went-wrong-2"></a>
+9999               0               Something went wrong</h2>
+</div></div><!-- contents -->
+</div><!-- PageDoc -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">انتجت بواسطة <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
+</body>
+</html>

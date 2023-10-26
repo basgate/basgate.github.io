@@ -1,0 +1,6 @@
+var searchData=
+[
+  ['0_2006_206_20st_20draft_20version_20eissa_20qamhan_0',['7/2/2023     0.06      6^st^ draft version          Eissa &amp; Qamhan',['../md__source_2_s_d_k_2_merchant_01first_01draft_01_s_d_k111111.html#autotoc_md722023-----006------6st-draft-version----------eissa--qamhan',1,'']]],
+  ['0_20something_20went_20wrong_1',['0 something went wrong',['../md__source_2_s_d_k_2_merchant_01first_01draft_01_s_d_k111111.html#autotoc_md9999---------------0---------------something-went-wrong',1,'9999               0               Something went wrong'],['../md__source_2_s_d_k_2_merchant_01first_01draft_01_s_d_k111111.html#autotoc_md9999---------------0---------------something-went-wrong-1',1,'9999               0               Something went wrong'],['../md__source_2_s_d_k_2_merchant_01first_01draft_01_s_d_k111111.html#autotoc_md9999---------------0---------------something-went-wrong-2',1,'9999               0               Something went wrong']]],
+  ['06_206_20st_20draft_20version_20eissa_20qamhan_2',['7/2/2023     0.06      6^st^ draft version          Eissa &amp; Qamhan',['../md__source_2_s_d_k_2_merchant_01first_01draft_01_s_d_k111111.html#autotoc_md722023-----006------6st-draft-version----------eissa--qamhan',1,'']]]
+];

@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ar-EG">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>BaseGate Docs: بس للافراد</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">BaseGate Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- انتجت بواسطة Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','بحث');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('db/dc7/ب�ل�������.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div><div class="header">
+  <div class="headertitle"><div class="title">بس للافراد</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><p><b>[منصة بس للأفراد]{dir="rtl"}</b></p>
+<p><b>[[الوصف:]{.underline}]{dir="rtl"}</b></p>
+<p>[اول منصة يمنيه تلبي احتياجاتك اليومية المالية وغير المالية]{dir="rtl"}</p>
+<p>[كل ما تحتاجة في تطبيق واحد بس]{dir="rtl"}</p>
+<p>[إرسل واستقبل الاموال وجميع مدفوعاتك عبر الانترنت وفي المتاجر وجميع طلباتك واحتياجاتك اليومية]{dir="rtl"}</p>
+<p><b>[بس مول]{dir="rtl"}</b></p>
+<p>[سوق يحتوي على اشهر المتاجر بجميع المجالات المختلفة التي تلبي جميع الاحتياجات اليومية]{dir="rtl"}</p>
+<ul>
+<li>[التطبيقات والمتاجر اليمنية في مكان واحد]{dir="rtl"}</li>
+<li>[اشتري بدون أعادة ادخال المعلومات لكل متجر]{dir="rtl"}</li>
+<li>[لا يحتاج تحميل تطبيقات المتاجر الأخرى]{dir="rtl"}</li>
+</ul>
+<p><b>[بس]{dir="rtl"} Pay</b></p>
+<p>[تمكنة من تسدسد المدفوعات عبر اي محفظة]{dir="rtl"}</p>
+<ul>
+<li>[خيارات دفع متعدده]{dir="rtl"}</li>
+<li>[لا يحتاج الدخول إلى حساب المحفظة]{dir="rtl"}</li>
+<li>[سهولة في الإجراءات]{dir="rtl"}</li>
+<li>[امان عالي]{dir="rtl"}</li>
+</ul>
+<p><b>[بس كاش]{dir="rtl"}</b></p>
+<p>[يمكنك سحب الاموال نقداً من اي محفظة عبر الصرافات الالية التابعة لبنك اليمن والكويت في اي مكان واي وقت]{dir="rtl"}</p>
+<ul>
+<li>[السحب النقدي من الصرافات الالية]{dir="rtl"}</li>
+<li>[لا يتطلب وجود بطاقة صراف الي]{dir="rtl"}</li>
+<li>[لا يتطلب انشاء حساب بنكي]{dir="rtl"}</li>
+</ul>
+<p><b>[بس حوالات]{dir="rtl"}</b></p>
+<p>[يمكنك تحويل الاموال مباشره إلى اي شخص داخل او خارج اليمن]{dir="rtl"}</p>
+<ul>
+<li>[حوالات داخلية عبر: (ياه موني)]{dir="rtl"}</li>
+<li>[حوالات دولية عبر: (]{dir="rtl"}Shift &ndash; Uraiamit -Raia -SmallWorld &ndash;Fory[)]{dir="rtl"}</li>
+</ul>
+<p><b>[\ ]{dir="rtl"}</b></p>
+<p><b>[بس سداد]{dir="rtl"}</b></p>
+<p>[يمكنك تسديد جميع الفواتير بمختلف انواعاها الحكومية والخاصة وشركات الاتصال]{dir="rtl"}</p>
+<ul>
+<li>[فواتير شركات الاتصالات]{dir="rtl"}</li>
+<li>[فواتير الكهرباء (حكومي - خاص)]{dir="rtl"}</li>
+<li>[فواتير المياه]{dir="rtl"}</li>
+<li>[فواتير الانترنت(يمن نت &ndash;]{dir="rtl"} 4G[)]{dir="rtl"}</li>
+</ul>
+<p><b>[بس كارد]{dir="rtl"}</b></p>
+<p>[يمكنك من شراء واعادة شحن بطائق الدفع عبر الانترنت والالعاب]{dir="rtl"}</p>
+<ul>
+<li>[بطائق ماستر كارد وفيزا]{dir="rtl"}</li>
+<li>[اشتراكات (]{dir="rtl"}netflex [&ndash;]{dir="rtl"} BeIN Sport [&ndash;]{dir="rtl"} [شاهد )]{dir="rtl"}</li>
+</ul>
+<p><b>[بس ترفيه]{dir="rtl"}</b></p>
+<p>[يمكنك من شراء واعادة شحن بطائق الدفع عبر الانترنت والالعاب]{dir="rtl"}</p>
+<ul>
+<li>[شحن ارصدة الالعاب]{dir="rtl"}</li>
+<li>[بطائق المتاجر(قوقل &ndash; أمازون &ndash;]{dir="rtl"} Ps-Xbox[)]{dir="rtl"} </li>
+</ul>
+</div></div><!-- contents -->
+</div><!-- PageDoc -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">انتجت بواسطة <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
+</body>
+</html>
