@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['شروط_20واحكام_20المنصة_0',['2.1 دليل اليات-شروط- واحكام المنصة',['../db/d54/autotoc_md21-_xD8_xAF_xD9_x84_xD9_x8A_xD9_x84-_xD8_xA7_xD9_x84_xD9_x8A_xD8_xA7_xD8_xAA-_xD8_xB4_4546556ac285219a4da29162b52a3cc7.html',1,'']]]
+  ['عن_20بس_0',['1.1 نبذة عن بس',['../md__source_21-1_01_x_d9_x86_x_d8_x_a8_x_d8_x_b0_x_d8_x_a9_01_x_d8_x_a_a_x_d8_x_b9_x_d8_x_b1_x_d92de828e6161b90c32f73bba37dc51357.html',1,'']]]
 ];

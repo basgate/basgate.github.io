@@ -1,7 +1,7 @@
 var indexSectionsWithContent =
 {
-  0: "1234abcdefghijlmoprstuwyابحدسشعفلمنو",
-  1: "1234sابحدسشعفلمنو"
+  0: "123abcdefghijlmoprstuwyابحدسشعلمنو",
+  1: "123sابحدسشعلمنو"
 };
 
 var indexSectionNames =
